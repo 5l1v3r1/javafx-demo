@@ -31,7 +31,7 @@ public class ButtonController {
         ChoiceBox vulID = (ChoiceBox) button.getParent().lookup("#vulId");
         ChoiceBox vulType = (ChoiceBox) button.getParent().lookup("#vulType");
 
-        System.out.println("点击Button");
+//        System.out.println("点击Button");
         HashMap<Object, Object> ObjMap = new HashMap<>();
         String url = urlInput.getText().toLowerCase().toString();
 
